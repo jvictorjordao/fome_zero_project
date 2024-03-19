@@ -7,3 +7,7 @@ Um novo CEO foi recém contratado e precisa entender melhor o negócio para cons
 A análise dos dados, com as respostas para as perguntas feitas pelo CEO, foi feita em um [Jupyter Notebook](https://github.com/jvictorjordao/fome_zero_project/blob/main/data_exploration.ipynb). Já o [dashboard de visualização](https://fomezero-project.streamlit.app) foi feito em Python, fazendo uso de bibliotecas como pandas, plotly e folium, além do framework Streamlit para deploy do dashboard em cloud. 
 
 Para além do que foi pedido, fez-se ainda uma conversão dos valores monetários contidos no dataset para uma moeda unificada (USD), de maneira com que a comparação entre restaurantes de diferentes partes do mundo (diferentes moedas) ficasse mais justa. Para isso, foi utilizada a biblioteca requests para se obter as taxas de conversão entre as moedas a partir de uma [API](https://www.exchangerate-api.com)
+
+# Resultado
+Além dos insights gerados a partir da resolução das questões propostas pelo CEO, criamos um painel online interativo, em que todas as áreas da empresa podem ter acesso aos principais gráficos e métricas gerados a partir da análise dos dados. O painel pode ser acessado através do link:
+https://fomezero-project.streamlit.app
