@@ -184,7 +184,7 @@ st.sidebar.markdown('## Filtros')
 
 converter = st.sidebar.toggle('Converter valores para Dólar')
 if converter:
-    st.sidebar.markdown(f'Valores convertidos para dólar segundo cotação do dia {data['date']}')
+    st.sidebar.markdown(f"Valores convertidos para dólar segundo cotação do dia {data['date']}")
     df1 = df_converted
 
 filtrar_paises = st.sidebar.toggle('Filtro de Países')
