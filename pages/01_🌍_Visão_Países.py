@@ -213,7 +213,7 @@ def hist_ratings(df1):
 # =========================
 # DATASET
 # =========================
-df0 = pd.read_csv("dataset\zomato.csv")
+df0 = pd.read_csv("dataset/zomato.csv")
 df1 = data_clean(df0)
 
 data = get_rates()

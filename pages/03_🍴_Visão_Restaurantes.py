@@ -158,7 +158,7 @@ def plot_worst_rating_per_cuisine(df1, qtd_top):
 # =========================
 # DATASET
 # =========================
-df0 = pd.read_csv("dataset\zomato.csv")
+df0 = pd.read_csv("dataset/zomato.csv")
 df1 = data_clean(df0)
 
 data = get_rates()
