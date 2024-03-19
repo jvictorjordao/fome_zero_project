@@ -226,8 +226,8 @@ with st.container():
         col = cols[i]
         df_cuisine = top_cuisines(selected_cuisines[i])
         col.metric(
-            label=f':red[{selected_cuisines[i]}:] {df_cuisine['restaurant_name'].values[0]}',
-            value=f'{df_cuisine['aggregate_rating'].values[0]}/5',
+            label=f":red[{selected_cuisines[i]}:] {df_cuisine['restaurant_name'].values[0]}",
+            value=f"{df_cuisine['aggregate_rating'].values[0]}/5",
             help=f"""
                     País: {df_cuisine['country'].values[0]}\n
                     Cidade: {df_cuisine['city'].values[0]}\n
